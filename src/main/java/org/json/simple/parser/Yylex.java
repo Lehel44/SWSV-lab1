@@ -52,10 +52,7 @@ class Yylex {
     "\1\30";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[45];
-    int offset = 0;
-    offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
-    return result;
+    return new int[45];
   }
 
   private static int zzUnpackAction(String packed, int offset, int [] result) {
